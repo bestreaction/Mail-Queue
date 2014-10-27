@@ -4,11 +4,11 @@
         const SANDBOX = FALSE;
         const PROTOCOL = "smtp";
         const PORT = "587";
-        const HOST = "smtp.mandrillapp.com";
-        const USERNAME = "yigittezel@gmail.com"; 
-        const PASSWORD = "nRc04-Z9tPR78h7s4TSZYQ";
+        const HOST = "smtp.example.com";
+        const USERNAME = "john@doe.com"; 
+        const PASSWORD = "";
         
-        // Varsayılan gerekli alanlar
-        const FROM = 'gonderen@mail.com'; // gozuken email adresi
-        const SENDER = 'gonderen@mail.com'; // yanıtla dediğinde gidecek adres
+        // default settings
+        const FROM = 'sender@example.com'; // from 
+        const SENDER = 'sender@example.com'; // reply address
     }

@@ -1,14 +1,8 @@
 <?php
-
-/*
- *  User : Sinan Gul
- *  Tarih : Oct 1, 2014
- *  Saat : 11:42:07 AM
- */
     
     require "Mail.php";
     require "Mail/mime.php";
-    require "../config/mail.config.php";
+    require "config/mail.config.php";
     
     
     class LogSmtpTable {
